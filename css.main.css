@@ -1,0 +1,30 @@
+.carousel-item img,
+.carousel-item.active img {
+    filter: brightness(0.7);
+    max-height: 370px;
+}
+body{
+    min-height: 100vh;
+}
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    
+}
+.Aviv img {
+    max-width: 100%;
+    height: auto;
+}
+.Aviv .hover:hover  {
+    content:url("img/after1.png");
+}
+.p-2.flex-fill.bd-highlight.container{
+    max-width: 100%;
+    height: auto;
+}
+.appBackground{
+    background-image: url("img/phones1.png");
+}
+tbody tr th:hover,td:hover {
+    background-color:#ffb8ad;
+}
